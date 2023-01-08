@@ -1,0 +1,42 @@
+.background-entrada{
+    width: auto;
+    height: 100%;
+    display: block;
+    background:url(../assets/Background/background-entrada.jpg) no-repeat center/cover;
+}
+
+.title_class{
+    width: 800px;
+    transition: all 1.0s;
+    opacity: .4;
+}
+.title_class:hover{
+    opacity: 1;
+}
+
+.title_home_class{
+    font-size: 50px;
+    opacity: .1;
+    color:white;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.title_home_class:hover{
+    opacity: 1;
+    font-size: 60px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .title_class{
+        display: none;
+    
+    }
+}
+
+.background-contenido{
+    background-image:url(../assets/Background/background-contenido.jpg);
+    background-size:cover;
+    background-position: 0px -500px;
+}

@@ -1,0 +1,34 @@
+          
+        .content{
+            width: 300px;
+        }
+
+        .play{
+            width: 290px;
+            background-size: cover;
+            animation: animar  1s infinite alternate;
+            }
+
+        .sombra{
+            height: 100px;
+            width: 300px;
+            background:rgb(168, 168, 168);
+            border-radius: 50%;
+            transform: rotatex(-80deg);
+            animation: sombra 1s infinite alternate;
+        }
+
+        @keyframes animar{
+            to{
+                transform: translateY(-50px)
+            } 
+        }
+
+        @keyframes sombra{
+            to{
+                transform: scale(0.6) rotateX(-70deg);
+                opacity: 0.2;
+            }
+        }
+        
+      
